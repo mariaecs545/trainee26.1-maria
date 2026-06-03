@@ -18,6 +18,8 @@ services:
       - "8080:8080"
     # standalone faz rodar em um unico comando simples
     command: standalone
+    volumes:
+      - ./dags:/opt/airflow/dags
 
 volumes:
   # cria a pasta virtual para os dados nao sumirem se reiniciar o computador
