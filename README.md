@@ -7,11 +7,8 @@ Este repositório concentra todas as entregas práticas e desenvolvimentos reali
 * **Docker & Docker Compose:** Containerização e isolamento do ambiente.
 * **Postgre:** Banco intermediário de dados.
 * **Airflow:** Para orquestração das tarefas ETL.
-* *(Mais ferramentas serão adicionadas ao longo das semanas)*
+* **Python**
 
 ## Estrutura do Repositório
 
-As atividades estão organizadas por etapas semanais:
-
-* **`/etapa1`**: Fundamentos e ambiente com Docker.
-  * Criação do `docker-compose.yml`
+As atividades e os arquivos correspondentes serão adicionados de acordo com as etapas semanais.
