@@ -5,7 +5,7 @@ import pandas as pd
 
 def processar_dados():
     df = pd.read_csv('https://docs.google.com/uc?export=download&id=1SrT78fHBCDJx9vox7tlcpq_kVccmjCj1', sep=';')
-    df_aracaju = df[df['cidade'] == 'Aracaju']
+    df_aracaju = df[df['city'] == 'ARACAJU']
 
 with DAG(
     dag_id = 'dag_filtro_aracaju',
