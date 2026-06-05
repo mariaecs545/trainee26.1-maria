@@ -1,5 +1,5 @@
 from airflow import DAG # type: ignore
-from airflow.operators.python_operator import PythonOperator # type: ignore
+from airflow.operators.python import PythonOperator # type: ignore
 from datetime import datetime
 import pandas as pd
 
